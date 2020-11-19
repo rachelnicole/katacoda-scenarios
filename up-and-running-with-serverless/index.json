@@ -1,0 +1,110 @@
+{
+  "title": "Getting up and Running with Serverless",
+  "description": "learn how to automate serverless deployments with code, and gain observability into their infrastructure by combining metrics, traces, and logs in Datadog.",
+  "time": "Two hours",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "courseData": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Set up serverless framework",
+        "text": "01-install-serverless.md"
+      },
+      {
+        "title": "Create handler function package",
+        "text": "02-install-dependencies.md"
+      },
+      {
+        "title": "Write handler function code",
+        "text": "03-write-handler.md"
+      },
+      {
+        "title": "Create serverless YAML",
+        "text": "04-serverless-yml.md"
+      },
+      {
+        "title": "Deploy Serverless project",
+        "text": "05-first-deploy.md"
+      },
+      {
+        "title": "Add Datadog Serverless Plugin",
+        "text": "06-serverless-plugin.md"
+      },
+      {
+        "title": "Custom Metric",
+        "text": "07-metric.md"
+      },
+      {
+        "title": "Log",
+        "text": "08-log.md"
+      },
+      {
+        "title": "Deploy",
+        "text": "09-second-deploy.md"
+      },
+      {
+        "title": "Break",
+        "text": "10-break.md"
+      },
+      {
+        "title": "Sign into Datadog",
+        "text": "11-sign-in.md"
+      },
+      {
+        "title": "Using the Serverless Page",
+        "text": "12-serverless-page.md"
+      },
+      {
+        "title": "Finding Cold Starts",
+        "text": "13-cold-starts.md"
+      },
+      {
+        "title": "Using the Service Map",
+        "text": "14-service-map.md"
+      },
+      {
+        "title": "Debugging with Log Analytics",
+        "text": "15-log-analytics.md"
+      },
+      {
+        "title": "Add New Function to Serverless.yml",
+        "text": "16-process-image-yml.md"
+      },
+      {
+        "title": "Install Jimp",
+        "text": "17-install-jimp.md"
+      },
+      {
+        "title": "Implement Process Image Lambda",
+        "text": "18-process-image-code.md"
+      },
+      {
+        "title": "Deploy and Test",
+        "text": "19-third-deploy.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "upload.sh",
+          "target": "/root/workshop",
+          "chmod": "+x"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uieditorpath": "workshop"
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "reuseConnection": true,
+    "livetime": "4h"
+  }
+}
