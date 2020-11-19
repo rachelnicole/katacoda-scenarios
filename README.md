@@ -2,7 +2,7 @@
 
 [![](http://shields.katacoda.com/katacoda/rachelwhite/count.svg)](https://www.katacoda.com/rachelwhite "Get your profile on Katacoda.com")
 
-Visit https://www.katacoda.com/rachelwhite to view the profile and interactive scenarios
+Visit https://www.katacoda.com/rachelwhite to vie the profile and interactive scenarios
 
 ### Writing Scenarios
 Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
